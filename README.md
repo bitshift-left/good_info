@@ -6,3 +6,4 @@ Keep SSH Session Alive (place code in ~/.ssh/config)
 Host *
 ServerAliveInterval 120
 "
+
