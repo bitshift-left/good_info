@@ -22,3 +22,12 @@ after initial installation:
 
 npm uninstall ws
 npm install @ionic/app-scripts@latest
+
+
+Loading an Image onto SD Card (for Raspberry Pi)
+
+xz -d "image_of_os.img.xz"   // unpack image
+diskutil list
+diskutil unmountDisk /dev/disk<id>
+sudo dd if=<image path> of=/dev/disk<id> bs=1
+
