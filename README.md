@@ -14,6 +14,14 @@ module avail gcc# This will show you the list of all available modules module lo
 # If you want to load a different version - first unload otherwise they stack
 
 
+##Notes
+
+Add `export` statements to `/etc/profile` for system wide application
+Otherwise, `~/.profile`
+i.e. `export PATH=$PATH:/usr/local/go/bin`
+
+tar -C <output parent directory> -xcf <file> 
+
 
 Ionic Tips
 
